@@ -1,6 +1,6 @@
 ### EXP -11 SYNCHRONOUS-UP-COUNTER
 ### Developed by: Manoj Kumar G
-###RegisterNumber: 212222230078
+### RegisterNumber: 212222230078
 
 ### **AIM:**
 
