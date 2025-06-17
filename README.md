@@ -1,16 +1,18 @@
-### SYNCHRONOUS-UP-COUNTER
+### EXP -11 SYNCHRONOUS-UP-COUNTER
+### Developed by: Manoj Kumar G
+###RegisterNumber: 212222230078
 
-**AIM:**
+### **AIM:**
 
 To implement 4 bit synchronous up counter and validate functionality.
 
-**SOFTWARE REQUIRED:**
+### **SOFTWARE REQUIRED:**
 
 Quartus prime
 
-**THEORY**
+### **THEORY**
 
-**4 bit synchronous UP Counter**
+### **4 bit synchronous UP Counter**
 
 If we enable each J-K flip-flop to toggle based on whether or not all preceding flip-flop outputs (Q) are “high,” we can obtain the same counting sequence as the asynchronous circuit without the ripple effect, since each flip-flop in this circuit will be clocked at exactly the same time:
 
@@ -26,21 +28,32 @@ Since the first (LSB) flip-flop needs to toggle at every clock pulse, its J and 
 The next flip-flop need only “recognize” that the first flip-flop’s Q output is high to be made ready to toggle, so no AND gate is needed.
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
-**Procedure**
+### **Procedure**
+### 1.Type the program in Quartus software.
 
-/* write all the steps invloved */
+### 2.Compile and run the program.
 
-**PROGRAM**
+### 3.Generate the RTL schematic and save the logic diagram.
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. 
+### 4.Create nodes for inputs and outputs to generate the timing diagram.
 
-Developed by: RegisterNumber:
-*/
+### 5.For different input combinations generate the timing diagram.
 
-**RTL LOGIC UP COUNTER**
+### **PROGRAM:**
+![exp 11 code ](https://github.com/user-attachments/assets/b7792a2a-3945-4cf4-aabc-e65106efc10a)
 
-**TIMING DIAGRAM FOR IP COUNTER**
 
-**TRUTH TABLE**
+**RTL LOGIC UP COUNTER:**
+![exp 11 ld](https://github.com/user-attachments/assets/0f918126-19e9-446b-b295-f610ee6ab8f5)
 
-**RESULTS**
+**TIMING DIAGRAM FOR IP COUNTER:**
+![exp 11 wf](https://github.com/user-attachments/assets/eee93ab5-e289-4000-b578-58a80386cacf)
+
+**TRUTH TABLE:**
+
+
+
+![tt ](https://github.com/user-attachments/assets/6c371234-3074-4892-a432-d33c26bd8e05)
+
+**RESULTS:**
+Thus the given 4 bit synchronous up counter are implimented using and validate functionality are verified using verilog programming.
